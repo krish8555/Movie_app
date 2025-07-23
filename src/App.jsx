@@ -15,8 +15,9 @@ const App = () => {
             Without the Hassle{" "}
           </h1>
         </header>
-        <p>Search </p>
+
         <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+        <h1 className="white">{searchTerm}</h1>
       </div>
     </main>
   );
